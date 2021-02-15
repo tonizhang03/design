@@ -1,0 +1,214 @@
+/* Colors */
+/* backgroud light blue: #d2ecfc;
+text gray: #646464;
+theme orange: #ff7300; */
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 2.6rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+h3 {
+    font-weight: 700;
+
+}
+h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+p {
+    color:#646464;
+    line-height: 1.5;
+}
+
+#title {
+background-color: #d2ecfc;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Nav Bar */ 
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.nav-item {
+    padding:0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Buttons */
+.title-btn {
+    margin: 5% 3% 5% 0;
+}
+.getstarted {
+   border:0; 
+    background-color:#ff7300;
+}
+.free-audit {
+    border: 1px solid #ff7300;
+    color:#ff7300;
+}
+/* Title */
+
+.title-img {
+    width: 100%;
+
+}
+
+/* Features */
+#features {
+    padding: 7% 10%;
+}
+.feature-box {
+    padding: 5%;
+    text-align: center;
+}
+.icon {
+    margin-bottom: 2rem;
+color: #ff7300;
+}
+.icon:hover {
+    color: #d2ecfc;
+}
+
+/* Testimonial */
+#testimonials {
+    height: 560px;
+ position: relative;
+    text-align: center;
+    background-color: #d2ecfc;
+}
+.carousel-inner {
+    
+    padding: 7% 10%;
+}
+.testimonial-content {
+    height:360px;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+
+}
+.testimonial-person {
+    margin-top:auto;
+}
+/* .testimonial-content {
+    padding: 7% 10%;
+    display: flex;
+    flex-direction: column; 
+}
+.testimonial-person {
+    margin-top: auto; 
+}  */
+.testimonial-img {
+    width: 8%;
+    border-radius: 100%;
+    margin-right:20px;
+}
+
+/* Press */
+#press {
+    padding: 3% 10%;
+    text-align: center;
+
+}
+.press-logo {
+    height: 80px;
+    margin:0 50px;
+}
+/* Pricing  */
+
+#pricing {
+    padding: 7% 10%;
+    text-align: center;
+}
+.pricing-title {
+    padding-bottom: 7%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 400px; 
+}
+.pricing-btn {
+    margin-top: auto;
+}
+
+/* CTA */
+#cta {
+    background-color: #d2ecfc;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15% 3%;
+}
+.brand {
+    font-family: 'Ubuntu';
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footer-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    line-height: 3;
+
+}
+.subscribe {
+    border:0; 
+    background-color:#ff7300;
+margin: 5% auto 5% 0;
+}
+.small {
+    margin-top: 30px;
+    font-size: .8rem;
+
+}
+.copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 15% 0;
+    
+}
+.social-media {
+    display: flex;
+    width: 200px;
+    margin: 20px auto;
+   justify-content: space-between;
+}
+
+@media (max-width: 880px) {
+h2 {
+    font-size: 1.5rem;
+}
+#title {
+    text-align: center;
+}
+
+}
